@@ -21,10 +21,13 @@
   },
   "homepage": "https://github.com/hillarykrutzsch/shopify-sample-app#readme",
   "dependencies": {
+    "@shopify/app-bridge-react": "^1.27.2",
     "@shopify/koa-shopify-auth": "^3.1.70",
     "@shopify/koa-shopify-graphql-proxy": "^4.0.1",
+    "@shopify/polaris": "^5.2.1",
     "dotenv": "^8.2.0",
     "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
     "koa": "^2.13.0",
     "koa-session": "^6.0.0",
     "next": "^9.5.3",
