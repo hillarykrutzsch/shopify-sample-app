@@ -25,8 +25,8 @@ function Index() {
         onSelection={(resources) => handleSelection(resources)}
       />
 
-      <Layout>
-        {emptyState ? (
+      {emptyState ? (
+        <Layout>
           <EmptyState
             heading="Manage your inventory transfers"
             action={{
@@ -39,10 +39,10 @@ function Index() {
             }}
             image="https://cdn.shopify.com/s/files/1/0757/9955/files/empty-state.svg"
           ></EmptyState>
-        ) : (
-          <ProductList />
-        )}
-      </Layout>
+        </Layout>
+      ) : (
+        <ProductList />
+      )}
     </Page>
   );
 }
